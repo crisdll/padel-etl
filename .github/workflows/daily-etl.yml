@@ -1,0 +1,46 @@
+name: Daily Padel ETL
+
+on:
+  schedule:
+    # Ejecutar cada día a las 6:00 AM UTC (8:00 AM en España)
+    - cron: '0 6 * * *'
+  
+  # Permitir ejecución manual desde GitHub
+  workflow_dispatch:
+
+jobs:
+  etl-job:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python 3.13
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.13'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas psycopg2-binary requests
+    
+    - name: Run ETL Process
+      env:
+        # Variables de entorno desde GitHub Secrets
+        DB_USER: ${{ secrets.DB_USER }}
+        DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+        DB_HOST: ${{ secrets.DB_HOST }}
+        DB_PORT: ${{ secrets.DB_PORT }}
+        DB_NAME: ${{ secrets.DB_NAME }}
+        API_SESSION_ID: ${{ secrets.API_SESSION_ID }}
+      run: python main.py
+    
+    - name: Upload logs as artifacts
+      uses: actions/upload-artifact@v3
+      if: always()
+      with:
+        name: etl-logs
+        path: logs/
+        retention-days: 30
