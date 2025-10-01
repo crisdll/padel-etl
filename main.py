@@ -1,6 +1,7 @@
 import psycopg2
 import pandas as pd
 import logging
+import sys
 from config import USER, PASSWORD, HOST, PORT, DBNAME
 from etl.api_client import get_competition_id,get_categorias, get_clubs, get_enfrentamientos, get_resultados
 from etl.loaders import load_categorias, load_clubs, load_enfrentamientos, load_resultados
@@ -15,10 +16,12 @@ def conect_to_supabase():
         return conn
     except Exception as e:
         logger.error(f"❌ Error al conectar: {e}")
-        return None
+        return None  # ✅ Retornar None en lugar de sys.exit aquí
+
 
 def main():
     logger = setup_logger(logging.INFO)
+    success = False  # ✅ Flag para controlar el exit code
 
     try:
         # =======================================================
@@ -30,10 +33,10 @@ def main():
         logger.info("Obteniendo ID de competición...")
         id, id_base64 = get_competition_id("lliga14")
         logger.info(f"ID: {id}, ID_BASE64: {id_base64}")
-        
+
         #TEST - TO REMOVE
         #id = 308
-        #id_base64 = 'MzA4' 
+        #id_base64 = 'MzA4'
 
         #2. Get categories
         logger.info("📂 Obteniendo categorías...")
@@ -68,14 +71,12 @@ def main():
             resultados_data = get_resultados(row['enfrentamiento_api_id'])
             df_resultados = pd.concat([df_resultados, resultados_data], ignore_index=True)
 
-        # Date summary
-       # Resumen de datos extraídos
+        # Resumen de datos extraídos
         logger.info("📊 RESUMEN DE DATOS EXTRAÍDOS:")
         logger.info(f"   Categorías: {len(df_categorias)}")
         logger.info(f"   Clubs: {len(df_clubs)}")
         logger.info(f"   Enfrentamientos: {len(df_enfrentamientos)}")
         logger.info(f"   Resultados: {len(df_resultados)}")
-
 
         # =======================================================
         # STEP 2: DATA LOAD TO SUPABASE
@@ -85,7 +86,7 @@ def main():
         conn = conect_to_supabase()
         if not conn:
             logger.error("❌ No se pudo conectar a Supabase. Terminando proceso.")
-            return
+            raise Exception("Error de conexión a Supabase")  # ✅ Usar raise en lugar de sys.exit
 
         try:
             with conn.cursor() as cur:
@@ -105,23 +106,34 @@ def main():
             # Commit final
             conn.commit()
             logger.info("✅ Todos los datos cargados exitosamente")
+            success = True  # ✅ Marcar como exitoso
             
         except Exception as e:
             conn.rollback()
             logger.error(f"❌ Error durante la carga: {e}")
+            raise  # ✅ Re-lanzar la excepción
         finally:
             conn.close()
             logger.info("🔐 Conexión cerrada")
 
         logger.info("✅ Proceso ETL completado exitosamente")
+        
     except Exception as e:
         logger.error(f"❌ Error crítico en el proceso ETL: {e}")
-        logger.exception("Detalles del error:")  # Esto incluye el stack trace
-        raise
+        logger.exception("Detalles del error:")
+        success = False  # ✅ Marcar como fallido
+    
     finally:
         logger.info("=" * 50)
-        logger.info("FIN DEL PROCESO ETL")
-        logger.info("=" * 50)
+        if success:
+            logger.info("FIN DEL PROCESO ETL - ÉXITO")
+            logger.info("=" * 50)
+            sys.exit(0)  # ✅ Exit exitoso
+        else:
+            logger.info("FIN DEL PROCESO ETL - ERROR")
+            logger.info("=" * 50)
+            sys.exit(1)  # ✅ Exit con error
+
 
 if __name__ == "__main__":
     main()
