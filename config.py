@@ -1,5 +1,3 @@
-import psycopg2
-from dotenv import load_dotenv
 import os
 
 # ------------------------
@@ -20,7 +18,7 @@ API_COOKIES = {
 # ------------------------
 # Configuración Supabase / PostgreSQL
 # ------------------------
-load_dotenv()  # load env variables
+
 USER = os.getenv("DB_USER")
 PASSWORD = os.getenv("DB_PASSWORD")
 HOST = os.getenv("DB_HOST")

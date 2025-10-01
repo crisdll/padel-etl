@@ -34,11 +34,11 @@ jobs:
         DB_HOST: ${{ secrets.DB_HOST }}
         DB_PORT: ${{ secrets.DB_PORT }}
         DB_NAME: ${{ secrets.DB_NAME }}
-        API_SESSION_ID: ${{ secrets.API_SESSION_ID }}
+        PADEL_WIN_COOKIE: ${{ secrets.PADEL_WIN_COOKIE }}
       run: python main.py
     
     - name: Upload logs as artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4  # ✅ Actualizado de v3 a v4
       if: always()
       with:
         name: etl-logs
