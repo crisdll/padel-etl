@@ -1,0 +1,337 @@
+2025-10-01 15:31:55,807 - padel_etl - INFO - setup_logger:57 - ==================================================
+2025-10-01 15:31:55,807 - padel_etl - INFO - setup_logger:58 - INICIO DEL PROCESO ETL PADEL VALLES
+2025-10-01 15:31:55,808 - padel_etl - INFO - setup_logger:59 - ==================================================
+2025-10-01 15:31:55,808 - padel_etl - INFO - setup_logger:60 - Log guardado en: C:\Users\dieguez\OneDrive - HP Inc\Documents\Cristina\EJPadelValles\padel_etl\logs\padel_etl_20251001_153155.log
+2025-10-01 15:31:55,808 - padel_etl - INFO - setup_logger:61 - Nivel de logging: INFO
+2025-10-01 15:31:55,816 - padel_etl - INFO - main:27 - 🔄 Iniciando extracción de datos de la API...
+2025-10-01 15:31:55,816 - padel_etl - INFO - main:30 - Obteniendo ID de competición...
+2025-10-01 15:31:56,488 - padel_etl - INFO - main:32 - ID: 319, ID_BASE64: MzE5
+2025-10-01 15:31:56,489 - padel_etl - INFO - main:39 - 📂 Obteniendo categorías...
+2025-10-01 15:31:57,271 - padel_etl - INFO - main:43 - 🏃‍♂️ Obteniendo clubs y enfrentamientos...
+2025-10-01 15:31:57,272 - padel_etl - INFO - main:49 -    Procesando categoría: 492
+2025-10-01 15:32:00,746 - padel_etl - INFO - main:49 -    Procesando categoría: 493
+2025-10-01 15:32:03,117 - padel_etl - INFO - main:49 -    Procesando categoría: 494
+2025-10-01 15:32:04,548 - padel_etl - INFO - main:49 -    Procesando categoría: 495
+2025-10-01 15:32:05,693 - padel_etl - INFO - main:49 -    Procesando categoría: 496
+2025-10-01 15:32:07,247 - padel_etl - INFO - main:49 -    Procesando categoría: 497
+2025-10-01 15:32:08,671 - padel_etl - INFO - main:49 -    Procesando categoría: 498
+2025-10-01 15:32:10,080 - padel_etl - INFO - main:49 -    Procesando categoría: 499
+2025-10-01 15:32:11,906 - padel_etl - INFO - main:49 -    Procesando categoría: 500
+2025-10-01 15:32:13,377 - padel_etl - INFO - main:60 - 🏆 Obteniendo resultados...
+2025-10-01 15:32:13,379 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7027
+2025-10-01 15:32:13,876 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7028
+2025-10-01 15:32:14,461 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7029
+2025-10-01 15:32:14,705 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7030
+2025-10-01 15:32:14,952 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7031
+2025-10-01 15:32:15,201 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7032
+2025-10-01 15:32:15,436 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7033
+2025-10-01 15:32:15,681 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7034
+2025-10-01 15:32:15,918 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7035
+2025-10-01 15:32:16,166 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7036
+2025-10-01 15:32:16,428 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7037
+2025-10-01 15:32:16,665 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7038
+2025-10-01 15:32:16,925 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7039
+2025-10-01 15:32:17,167 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7040
+2025-10-01 15:32:17,415 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7041
+2025-10-01 15:32:17,659 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7042
+2025-10-01 15:32:17,901 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7043
+2025-10-01 15:32:18,164 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7044
+2025-10-01 15:32:18,405 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7045
+2025-10-01 15:32:18,647 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7046
+2025-10-01 15:32:18,900 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7047
+2025-10-01 15:32:19,143 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7048
+2025-10-01 15:32:19,386 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7049
+2025-10-01 15:32:19,633 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7050
+2025-10-01 15:32:20,873 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7051
+2025-10-01 15:32:21,117 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7052
+2025-10-01 15:32:21,384 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7053
+2025-10-01 15:32:21,717 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7054
+2025-10-01 15:32:22,005 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6971
+2025-10-01 15:32:22,275 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6972
+2025-10-01 15:32:22,545 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6973
+2025-10-01 15:32:22,819 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6974
+2025-10-01 15:32:23,085 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6975
+2025-10-01 15:32:23,360 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6976
+2025-10-01 15:32:23,630 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6977
+2025-10-01 15:32:23,866 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6978
+2025-10-01 15:32:24,107 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6979
+2025-10-01 15:32:24,347 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6980
+2025-10-01 15:32:24,594 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6981
+2025-10-01 15:32:24,834 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6982
+2025-10-01 15:32:25,080 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6983
+2025-10-01 15:32:25,324 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6984
+2025-10-01 15:32:25,655 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6985
+2025-10-01 15:32:25,923 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6986
+2025-10-01 15:32:27,179 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6987
+2025-10-01 15:32:27,414 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6988
+2025-10-01 15:32:27,649 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6989
+2025-10-01 15:32:27,903 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6990
+2025-10-01 15:32:28,163 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6991
+2025-10-01 15:32:28,403 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6992
+2025-10-01 15:32:28,649 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6993
+2025-10-01 15:32:28,897 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6994
+2025-10-01 15:32:29,164 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6995
+2025-10-01 15:32:29,409 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6996
+2025-10-01 15:32:29,652 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6997
+2025-10-01 15:32:29,924 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6998
+2025-10-01 15:32:30,241 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 6999
+2025-10-01 15:32:30,479 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7000
+2025-10-01 15:32:30,714 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7001
+2025-10-01 15:32:30,976 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7002
+2025-10-01 15:32:31,219 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7003
+2025-10-01 15:32:31,505 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7004
+2025-10-01 15:32:31,775 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7005
+2025-10-01 15:32:32,035 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7006
+2025-10-01 15:32:32,303 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7007
+2025-10-01 15:32:32,555 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7008
+2025-10-01 15:32:32,817 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7009
+2025-10-01 15:32:33,074 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7010
+2025-10-01 15:32:33,330 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7011
+2025-10-01 15:32:33,592 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7012
+2025-10-01 15:32:33,855 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7013
+2025-10-01 15:32:34,118 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7014
+2025-10-01 15:32:34,405 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7015
+2025-10-01 15:32:34,663 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7016
+2025-10-01 15:32:34,917 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7017
+2025-10-01 15:32:35,822 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7018
+2025-10-01 15:32:36,075 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7019
+2025-10-01 15:32:36,349 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7020
+2025-10-01 15:32:36,608 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7021
+2025-10-01 15:32:36,868 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7022
+2025-10-01 15:32:37,129 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7023
+2025-10-01 15:32:37,399 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7024
+2025-10-01 15:32:37,651 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7025
+2025-10-01 15:32:37,904 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7026
+2025-10-01 15:32:38,163 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7055
+2025-10-01 15:32:38,422 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7056
+2025-10-01 15:32:38,681 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7057
+2025-10-01 15:32:38,931 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7058
+2025-10-01 15:32:39,188 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7059
+2025-10-01 15:32:39,451 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7060
+2025-10-01 15:32:39,702 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7061
+2025-10-01 15:32:39,979 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7062
+2025-10-01 15:32:40,522 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7063
+2025-10-01 15:32:40,776 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7064
+2025-10-01 15:32:41,030 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7065
+2025-10-01 15:32:41,573 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7066
+2025-10-01 15:32:41,831 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7067
+2025-10-01 15:32:42,082 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7068
+2025-10-01 15:32:42,334 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7069
+2025-10-01 15:32:42,593 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7070
+2025-10-01 15:32:42,851 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7071
+2025-10-01 15:32:43,102 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7072
+2025-10-01 15:32:43,362 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7073
+2025-10-01 15:32:43,626 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7074
+2025-10-01 15:32:43,894 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7075
+2025-10-01 15:32:44,158 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7310
+2025-10-01 15:32:44,440 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7311
+2025-10-01 15:32:44,702 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7312
+2025-10-01 15:32:44,955 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7313
+2025-10-01 15:32:45,501 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7315
+2025-10-01 15:32:45,779 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7316
+2025-10-01 15:32:46,141 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7317
+2025-10-01 15:32:46,388 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7318
+2025-10-01 15:32:46,648 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7319
+2025-10-01 15:32:46,904 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7320
+2025-10-01 15:32:47,160 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7321
+2025-10-01 15:32:47,409 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7322
+2025-10-01 15:32:47,661 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7323
+2025-10-01 15:32:47,912 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7324
+2025-10-01 15:32:48,182 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7325
+2025-10-01 15:32:48,453 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7326
+2025-10-01 15:32:48,714 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7327
+2025-10-01 15:32:49,073 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7328
+2025-10-01 15:32:49,333 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7329
+2025-10-01 15:32:49,586 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7330
+2025-10-01 15:32:49,835 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7332
+2025-10-01 15:32:50,104 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7333
+2025-10-01 15:32:50,370 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7334
+2025-10-01 15:32:51,653 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7335
+2025-10-01 15:32:51,916 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7336
+2025-10-01 15:32:52,172 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7337
+2025-10-01 15:32:52,429 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7338
+2025-10-01 15:32:52,689 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7339
+2025-10-01 15:32:52,948 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7340
+2025-10-01 15:32:53,204 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7341
+2025-10-01 15:32:53,461 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7343
+2025-10-01 15:32:53,710 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7344
+2025-10-01 15:32:53,970 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7345
+2025-10-01 15:32:54,223 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7419
+2025-10-01 15:32:54,485 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7157
+2025-10-01 15:32:54,766 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7158
+2025-10-01 15:32:55,670 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7159
+2025-10-01 15:32:55,946 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7160
+2025-10-01 15:32:56,241 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7161
+2025-10-01 15:32:56,498 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7162
+2025-10-01 15:32:56,753 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7163
+2025-10-01 15:32:57,029 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7164
+2025-10-01 15:32:57,282 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7165
+2025-10-01 15:32:57,543 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7166
+2025-10-01 15:32:57,804 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7167
+2025-10-01 15:32:58,070 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7168
+2025-10-01 15:32:58,322 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7169
+2025-10-01 15:32:58,575 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7170
+2025-10-01 15:32:58,833 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7171
+2025-10-01 15:32:59,083 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7172
+2025-10-01 15:32:59,911 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7173
+2025-10-01 15:33:00,174 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7174
+2025-10-01 15:33:00,452 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7175
+2025-10-01 15:33:00,925 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7176
+2025-10-01 15:33:01,229 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7177
+2025-10-01 15:33:01,496 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7178
+2025-10-01 15:33:01,751 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7179
+2025-10-01 15:33:02,023 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7180
+2025-10-01 15:33:02,297 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7181
+2025-10-01 15:33:02,563 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7182
+2025-10-01 15:33:02,823 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7183
+2025-10-01 15:33:03,082 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7184
+2025-10-01 15:33:03,339 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7185
+2025-10-01 15:33:03,602 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7186
+2025-10-01 15:33:03,853 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7187
+2025-10-01 15:33:04,118 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7188
+2025-10-01 15:33:04,573 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7189
+2025-10-01 15:33:04,828 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7190
+2025-10-01 15:33:05,087 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7191
+2025-10-01 15:33:05,377 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7192
+2025-10-01 15:33:05,634 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7382
+2025-10-01 15:33:05,892 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7383
+2025-10-01 15:33:06,246 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7384
+2025-10-01 15:33:06,500 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7385
+2025-10-01 15:33:06,761 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7386
+2025-10-01 15:33:07,020 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7387
+2025-10-01 15:33:07,270 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7388
+2025-10-01 15:33:07,524 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7389
+2025-10-01 15:33:07,773 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7390
+2025-10-01 15:33:08,025 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7391
+2025-10-01 15:33:08,294 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7392
+2025-10-01 15:33:08,551 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7393
+2025-10-01 15:33:08,811 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7394
+2025-10-01 15:33:09,071 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7395
+2025-10-01 15:33:09,524 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7396
+2025-10-01 15:33:09,782 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7397
+2025-10-01 15:33:10,047 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7398
+2025-10-01 15:33:11,301 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7399
+2025-10-01 15:33:11,559 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7400
+2025-10-01 15:33:11,820 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7401
+2025-10-01 15:33:12,073 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7402
+2025-10-01 15:33:12,348 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7403
+2025-10-01 15:33:12,598 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7404
+2025-10-01 15:33:12,856 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7405
+2025-10-01 15:33:13,113 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7406
+2025-10-01 15:33:13,375 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7407
+2025-10-01 15:33:13,620 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7408
+2025-10-01 15:33:13,875 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7409
+2025-10-01 15:33:14,142 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7410
+2025-10-01 15:33:14,393 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7411
+2025-10-01 15:33:14,652 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7412
+2025-10-01 15:33:14,939 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7413
+2025-10-01 15:33:15,202 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7414
+2025-10-01 15:33:15,454 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7415
+2025-10-01 15:33:15,706 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7416
+2025-10-01 15:33:16,013 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7417
+2025-10-01 15:33:16,284 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7229
+2025-10-01 15:33:16,550 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7230
+2025-10-01 15:33:16,811 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7231
+2025-10-01 15:33:17,079 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7232
+2025-10-01 15:33:17,344 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7233
+2025-10-01 15:33:17,609 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7234
+2025-10-01 15:33:17,868 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7235
+2025-10-01 15:33:18,122 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7236
+2025-10-01 15:33:18,386 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7237
+2025-10-01 15:33:18,650 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7238
+2025-10-01 15:33:18,911 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7239
+2025-10-01 15:33:19,159 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7240
+2025-10-01 15:33:19,408 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7241
+2025-10-01 15:33:19,655 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7242
+2025-10-01 15:33:19,916 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7243
+2025-10-01 15:33:20,161 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7244
+2025-10-01 15:33:20,410 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7245
+2025-10-01 15:33:20,664 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7246
+2025-10-01 15:33:20,906 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7247
+2025-10-01 15:33:21,144 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7248
+2025-10-01 15:33:21,395 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7249
+2025-10-01 15:33:21,655 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7250
+2025-10-01 15:33:21,911 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7251
+2025-10-01 15:33:22,153 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7252
+2025-10-01 15:33:22,402 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7253
+2025-10-01 15:33:22,649 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7254
+2025-10-01 15:33:22,899 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7255
+2025-10-01 15:33:23,144 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7256
+2025-10-01 15:33:23,396 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7257
+2025-10-01 15:33:23,645 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7258
+2025-10-01 15:33:23,894 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7259
+2025-10-01 15:33:24,139 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7260
+2025-10-01 15:33:24,388 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7261
+2025-10-01 15:33:24,840 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7262
+2025-10-01 15:33:25,086 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7263
+2025-10-01 15:33:25,331 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7264
+2025-10-01 15:33:25,870 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7265
+2025-10-01 15:33:26,119 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7266
+2025-10-01 15:33:26,378 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7267
+2025-10-01 15:33:26,628 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7268
+2025-10-01 15:33:26,874 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7269
+2025-10-01 15:33:27,120 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7270
+2025-10-01 15:33:27,367 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7271
+2025-10-01 15:33:27,610 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7272
+2025-10-01 15:33:27,852 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7273
+2025-10-01 15:33:28,097 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7274
+2025-10-01 15:33:28,347 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7275
+2025-10-01 15:33:28,594 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7276
+2025-10-01 15:33:28,835 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7277
+2025-10-01 15:33:29,089 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7278
+2025-10-01 15:33:29,334 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7279
+2025-10-01 15:33:29,873 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7280
+2025-10-01 15:33:30,124 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7281
+2025-10-01 15:33:30,393 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7282
+2025-10-01 15:33:30,664 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7283
+2025-10-01 15:33:30,932 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7284
+2025-10-01 15:33:31,225 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7285
+2025-10-01 15:33:31,782 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7286
+2025-10-01 15:33:32,035 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7287
+2025-10-01 15:33:32,278 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7288
+2025-10-01 15:33:32,519 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7289
+2025-10-01 15:33:32,766 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7290
+2025-10-01 15:33:33,038 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7291
+2025-10-01 15:33:33,279 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7292
+2025-10-01 15:33:33,522 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7293
+2025-10-01 15:33:33,766 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7294
+2025-10-01 15:33:34,017 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7295
+2025-10-01 15:33:34,393 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7296
+2025-10-01 15:33:34,634 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7297
+2025-10-01 15:33:34,891 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7298
+2025-10-01 15:33:35,164 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7300
+2025-10-01 15:33:35,425 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7301
+2025-10-01 15:33:35,700 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7302
+2025-10-01 15:33:35,943 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7303
+2025-10-01 15:33:36,186 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7304
+2025-10-01 15:33:36,426 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7305
+2025-10-01 15:33:37,705 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7306
+2025-10-01 15:33:37,949 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7307
+2025-10-01 15:33:38,197 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7308
+2025-10-01 15:33:38,444 - padel_etl - INFO - main:67 -    Obteniendo resultados para enfrentamiento: 7309
+2025-10-01 15:33:38,687 - padel_etl - INFO - main:73 - 📊 RESUMEN DE DATOS EXTRAÍDOS:
+2025-10-01 15:33:38,688 - padel_etl - INFO - main:74 -    Categorías: 9
+2025-10-01 15:33:38,689 - padel_etl - INFO - main:75 -    Clubs: 77
+2025-10-01 15:33:38,689 - padel_etl - INFO - main:76 -    Enfrentamientos: 294
+2025-10-01 15:33:38,689 - padel_etl - INFO - main:77 -    Resultados: 873
+2025-10-01 15:33:38,690 - padel_etl - INFO - main:83 - 
+💾 Iniciando carga de datos a Supabase...
+2025-10-01 15:33:39,151 - padel_etl - INFO - conect_to_supabase:14 - ✅ Conexión exitosa a Supabase
+2025-10-01 15:33:39,151 - padel_etl - INFO - main:93 - 📂 Cargando categorías...
+2025-10-01 15:33:39,152 - padel_etl - INFO - load_categorias:20 - Iniciando carga de 9 categorías
+2025-10-01 15:33:39,272 - padel_etl - INFO - load_categorias:25 - ✅ Procesadas 9 categorías (insertadas/actualizadas).
+2025-10-01 15:33:39,273 - padel_etl - INFO - main:96 - 🏃‍♂️ Cargando clubs...
+2025-10-01 15:33:39,273 - padel_etl - INFO - load_clubs:46 - Iniciando carga de 77 clubs
+2025-10-01 15:33:39,384 - padel_etl - INFO - load_clubs:51 - ✅ Procesados 77 clubes (insertados/actualizados).
+2025-10-01 15:33:39,385 - padel_etl - INFO - main:99 - 🤝 Cargando enfrentamientos...
+2025-10-01 15:33:39,386 - padel_etl - INFO - load_enfrentamientos:65 - Iniciando carga de 294 enfrentamientos
+2025-10-01 15:33:39,588 - padel_etl - INFO - load_enfrentamientos:86 - ✅ Procesados 294 enfrentamientos (insertados/actualizados).
+2025-10-01 15:33:39,589 - padel_etl - INFO - main:102 - 🏆 Cargando resultados...
+2025-10-01 15:33:39,590 - padel_etl - INFO - load_resultados:102 - Iniciando carga de 873 resultados
+2025-10-01 15:33:40,555 - padel_etl - INFO - load_resultados:130 - ✅ Procesados 873 resultados (insertados/actualizados).
+2025-10-01 15:33:40,556 - padel_etl - INFO - main:107 - ✅ Todos los datos cargados exitosamente
+2025-10-01 15:33:40,557 - padel_etl - INFO - main:114 - 🔐 Conexión cerrada
+2025-10-01 15:33:40,557 - padel_etl - INFO - main:116 - ✅ Proceso ETL completado exitosamente
+2025-10-01 15:33:40,557 - padel_etl - INFO - main:122 - ==================================================
+2025-10-01 15:33:40,557 - padel_etl - INFO - main:123 - FIN DEL PROCESO ETL
+2025-10-01 15:33:40,558 - padel_etl - INFO - main:124 - ==================================================

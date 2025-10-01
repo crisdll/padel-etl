@@ -1,0 +1,1 @@
+Se puede usar ON CONFLICT DO NOTHING o comparar un hash de fila para evitar duplicados.

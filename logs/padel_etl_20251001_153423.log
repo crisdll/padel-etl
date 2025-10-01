@@ -1,0 +1,44 @@
+2025-10-01 15:34:23,212 - padel_etl - INFO - setup_logger:57 - ==================================================
+2025-10-01 15:34:23,212 - padel_etl - INFO - setup_logger:58 - INICIO DEL PROCESO ETL PADEL VALLES
+2025-10-01 15:34:23,213 - padel_etl - INFO - setup_logger:59 - ==================================================
+2025-10-01 15:34:23,213 - padel_etl - INFO - setup_logger:60 - Log guardado en: C:\Users\dieguez\OneDrive - HP Inc\Documents\Cristina\EJPadelValles\padel_etl\logs\padel_etl_20251001_153423.log
+2025-10-01 15:34:23,213 - padel_etl - INFO - setup_logger:61 - Nivel de logging: INFO
+2025-10-01 15:34:23,214 - padel_etl - INFO - main:27 - 🔄 Iniciando extracción de datos de la API...
+2025-10-01 15:34:23,214 - padel_etl - INFO - main:30 - Obteniendo ID de competición...
+2025-10-01 15:34:23,493 - padel_etl - INFO - main:32 - ID: 319, ID_BASE64: MzE5
+2025-10-01 15:34:23,493 - padel_etl - INFO - main:39 - 📂 Obteniendo categorías...
+2025-10-01 15:34:23,736 - padel_etl - INFO - main:43 - 🏃‍♂️ Obteniendo clubs y enfrentamientos...
+2025-10-01 15:34:23,737 - padel_etl - INFO - main:49 -    Procesando categoría: 530
+2025-10-01 15:34:25,160 - padel_etl - INFO - main:49 -    Procesando categoría: 531
+2025-10-01 15:34:26,492 - padel_etl - INFO - main:49 -    Procesando categoría: 532
+2025-10-01 15:34:28,234 - padel_etl - INFO - main:49 -    Procesando categoría: 533
+2025-10-01 15:34:29,596 - padel_etl - INFO - main:49 -    Procesando categoría: 534
+2025-10-01 15:34:30,909 - padel_etl - INFO - main:49 -    Procesando categoría: 535
+2025-10-01 15:34:32,400 - padel_etl - INFO - main:49 -    Procesando categoría: 536
+2025-10-01 15:34:33,971 - padel_etl - INFO - main:49 -    Procesando categoría: 537
+2025-10-01 15:34:35,745 - padel_etl - INFO - main:60 - 🏆 Obteniendo resultados...
+2025-10-01 15:34:35,747 - padel_etl - INFO - main:73 - 📊 RESUMEN DE DATOS EXTRAÍDOS:
+2025-10-01 15:34:35,747 - padel_etl - INFO - main:74 -    Categorías: 8
+2025-10-01 15:34:35,747 - padel_etl - INFO - main:75 -    Clubs: 65
+2025-10-01 15:34:35,748 - padel_etl - INFO - main:76 -    Enfrentamientos: 232
+2025-10-01 15:34:35,748 - padel_etl - INFO - main:77 -    Resultados: 0
+2025-10-01 15:34:35,748 - padel_etl - INFO - main:83 - 
+💾 Iniciando carga de datos a Supabase...
+2025-10-01 15:34:36,033 - padel_etl - INFO - conect_to_supabase:14 - ✅ Conexión exitosa a Supabase
+2025-10-01 15:34:36,034 - padel_etl - INFO - main:93 - 📂 Cargando categorías...
+2025-10-01 15:34:36,035 - padel_etl - INFO - load_categorias:20 - Iniciando carga de 8 categorías
+2025-10-01 15:34:36,142 - padel_etl - INFO - load_categorias:25 - ✅ Procesadas 8 categorías (insertadas/actualizadas).
+2025-10-01 15:34:36,143 - padel_etl - INFO - main:96 - 🏃‍♂️ Cargando clubs...
+2025-10-01 15:34:36,144 - padel_etl - INFO - load_clubs:46 - Iniciando carga de 65 clubs
+2025-10-01 15:34:36,257 - padel_etl - INFO - load_clubs:51 - ✅ Procesados 65 clubes (insertados/actualizados).
+2025-10-01 15:34:36,258 - padel_etl - INFO - main:99 - 🤝 Cargando enfrentamientos...
+2025-10-01 15:34:36,258 - padel_etl - INFO - load_enfrentamientos:65 - Iniciando carga de 232 enfrentamientos
+2025-10-01 15:34:36,457 - padel_etl - INFO - load_enfrentamientos:86 - ✅ Procesados 232 enfrentamientos (insertados/actualizados).
+2025-10-01 15:34:36,457 - padel_etl - INFO - main:102 - 🏆 Cargando resultados...
+2025-10-01 15:34:36,457 - padel_etl - WARNING - load_resultados:99 - No hay resultados para insertar.
+2025-10-01 15:34:36,458 - padel_etl - INFO - main:107 - ✅ Todos los datos cargados exitosamente
+2025-10-01 15:34:36,458 - padel_etl - INFO - main:114 - 🔐 Conexión cerrada
+2025-10-01 15:34:36,460 - padel_etl - INFO - main:116 - ✅ Proceso ETL completado exitosamente
+2025-10-01 15:34:36,460 - padel_etl - INFO - main:122 - ==================================================
+2025-10-01 15:34:36,460 - padel_etl - INFO - main:123 - FIN DEL PROCESO ETL
+2025-10-01 15:34:36,460 - padel_etl - INFO - main:124 - ==================================================
