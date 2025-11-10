@@ -2,8 +2,7 @@ name: Daily Padel ETL
 
 on:
   schedule:
-    # Ejecutar cada día a las 4:00 AM UTC (6:00 AM en España)
-    - cron: '0 4 * * *'
+    - cron: '35 9 * * *'
   
   # Permitir ejecución manual desde GitHub
   workflow_dispatch:
