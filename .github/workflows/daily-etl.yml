@@ -3,6 +3,7 @@ name: Daily Padel ETL
 on:
   schedule:
     - cron: '0 4 * * *'
+    - cron: '0 9 * * *'
   
   # Permitir ejecución manual desde GitHub
   workflow_dispatch:
